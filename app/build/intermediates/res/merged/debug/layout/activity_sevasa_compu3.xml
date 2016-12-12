@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/escritorio" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:id="@+id/textView12"
+        android:text="COMPUTADORA DELL OPTIPLEX"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="normal|bold"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView13"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="20sp"
+        android:layout_weight="0.21"
+        android:text="Dell OptiPlex escritorio paquete completo del ordenador con Windows 7 Professional de 32 bits Home - Teclado, ratón. Procesador Intel Core-i5 3.2 GHz, Disco Duro 2TB, Memoria RAM de 8GB." />
+
+    <TextView
+        android:text="Antes: $1500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView10"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:layout_weight="0.09" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView11"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_weight="0.35"
+        android:text="Precio de Oferta: $1250" />
+</LinearLayout>

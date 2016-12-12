@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/mac"
+        android:layout_weight="0.21" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:id="@+id/textView8"
+        android:text="iMAC"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="normal|bold"
+        android:layout_weight="0.04" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView9"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="20sp"
+        android:layout_weight="0.12"
+        android:text="iMac con pantalla Retin 4k de 21,5 pulgadas  Accesorios: * Teclado Magic Keyboard * Raton Magic Mouse 2 * Magic Trackpad 2 Conexion USB  Micrófono estéreo Puerto de entrada micrófono / Puerto de salida de audífono *Disco Duro 1TB" />
+
+    <TextView
+        android:text="Antes: $1800"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_weight="0.21"
+        android:text="Precio de Oferta: $1600" />
+
+</LinearLayout>

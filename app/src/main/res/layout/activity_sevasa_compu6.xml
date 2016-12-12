@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/compudell6"
+        android:layout_weight="0.21" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:id="@+id/textView24"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="normal|bold"
+        android:layout_weight="0.13"
+        android:text="Dell Optiplex GX620 " />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView25"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="20sp"
+        android:text="Computadora de escritorio DELL Optiplex GX620 con Procesador Intel Core-i7 2.8 GHz, 4GB Memoria RAM DDR4, Disco Duro 500GB, Windows 10 Pro 64 bits.\n" />
+
+    <TextView
+        android:text="Antes: $1000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView35"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:layout_weight="0.04" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView37"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_weight="0.11"
+        android:text="Precio de Oferta: $700" />
+</LinearLayout>

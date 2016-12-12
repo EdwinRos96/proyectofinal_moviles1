@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="168dp"
+        android:id="@+id/imageView6"
+        android:background="@mipmap/tecladogamer"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:id="@+id/textView4"
+        android:text="Teclado Razer BlackWidow Ultimate"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="20sp"
+        android:layout_weight="0.32"
+        android:text="Teclado: Razer BlackWidow Ultimate 2014 Elite Mechanical Gaming. Teclas totalmente programables + 5 teclas de juego adicionales con grabación de macro instantánea *Teclas con retroiluminación individual con iluminación mejorada *Teclas de medios de fácil acceso para un cómodo control de volumen y reproducción de medios" />
+
+    <TextView
+        android:text=" Antes: $90"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Precio de Oferta: $75"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+</LinearLayout>

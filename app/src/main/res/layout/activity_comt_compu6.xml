@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="213dp"
+        android:layout_height="207dp"
+        android:id="@+id/imageView6"
+        android:background="@mipmap/cel3"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:id="@+id/textView4"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="normal|bold"
+        android:text="Samsung Galaxy Grand Prime " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="20sp"
+        android:layout_weight="0.32"
+        android:text="Teléfono celular Samsung Galaxy Grand Prime con Procesador Qualcomm MSM8916 Snapdragon 410 quad-core 1.2 GHz, GPU Adreno 306, 16GB Almacenamiento, 2GB Memoria RAM, Pantalla 720 x 1280 pixels, 5.5 pulgadas, 4G LTE 100 Mbps, Batería Standard, Li-Ion 2600 mAh, Cámara 8MP, Android v4.4" />
+
+    <TextView
+        android:text=" Antes: $520"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Precio de Oferta: $500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+</LinearLayout>

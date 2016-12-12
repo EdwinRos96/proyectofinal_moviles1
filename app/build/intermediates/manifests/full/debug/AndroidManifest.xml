@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.myapplication"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="24" />
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/mac"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        // SUGAR ORM
+        <meta-data
+            android:name="DATABASE"
+            android:value="proyectomov.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="3" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.example.user.myapplication" />
+
+        <activity
+            android:name="com.example.user.myapplication.ComtechComputadoras"
+            android:parentActivityName="com.example.user.myapplication.TiendaComtech" />
+        <activity
+            android:name="com.example.user.myapplication.TiendaComtech"
+            android:parentActivityName="com.example.user.myapplication.MenuTienda" />
+        <activity
+            android:name="com.example.user.myapplication.Comtech_ZonaGamer"
+            android:parentActivityName="com.example.user.myapplication.TiendaComtech" />
+        <activity
+            android:name="com.example.user.myapplication.SevasaComputadoras"
+            android:parentActivityName="com.example.user.myapplication.TiendaSevasa" />
+        <activity
+            android:name="com.example.user.myapplication.SevasaAlmacenamiento"
+            android:parentActivityName="com.example.user.myapplication.TiendaSevasa" />
+        <activity
+            android:name="com.example.user.myapplication.TiendaSevasa"
+            android:parentActivityName="com.example.user.myapplication.MenuTienda" />
+        <activity
+            android:name="com.example.user.myapplication.SevasaImpresoras"
+            android:parentActivityName="com.example.user.myapplication.TiendaSevasa" />
+        <activity
+            android:name="com.example.user.myapplication.SevasaCamaras"
+            android:parentActivityName="com.example.user.myapplication.TiendaSevasa" />
+        <activity
+            android:name="com.example.user.myapplication.ContactoSevasa"
+            android:parentActivityName="com.example.user.myapplication.TiendaSevasa" />
+        <activity
+            android:name="com.example.user.myapplication.ContactoComtech"
+            android:parentActivityName="com.example.user.myapplication.TiendaComtech" />
+        <activity android:name="com.example.user.myapplication.MenuTienda" />
+        <activity android:name="com.example.user.myapplication.Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        //SEVASA COMPUTADORAS//
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_compu1"
+            android:parentActivityName="com.example.user.myapplication.SevasaComputadoras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_compu2"
+            android:parentActivityName="com.example.user.myapplication.SevasaComputadoras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_compu3"
+            android:parentActivityName="com.example.user.myapplication.SevasaComputadoras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_compu4"
+            android:parentActivityName="com.example.user.myapplication.SevasaComputadoras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_compu5"
+            android:parentActivityName="com.example.user.myapplication.SevasaComputadoras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_compu6"
+            android:parentActivityName="com.example.user.myapplication.SevasaComputadoras" />
+        //SEVASA CÁMARAS//
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_cam1"
+            android:parentActivityName="com.example.user.myapplication.SevasaCamaras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_cam2"
+            android:parentActivityName="com.example.user.myapplication.SevasaCamaras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_cam3"
+            android:parentActivityName="com.example.user.myapplication.SevasaCamaras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_cam4"
+            android:parentActivityName="com.example.user.myapplication.SevasaCamaras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_cam5"
+            android:parentActivityName="com.example.user.myapplication.SevasaCamaras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_cam6"
+            android:parentActivityName="com.example.user.myapplication.SevasaCamaras" />
+        //SEVASA ALMACENAMIENTO//
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_disc1"
+            android:parentActivityName="com.example.user.myapplication.SevasaAlmacenamiento" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_disc2"
+            android:parentActivityName="com.example.user.myapplication.SevasaAlmacenamiento" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_disc3"
+            android:parentActivityName="com.example.user.myapplication.SevasaAlmacenamiento" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_disc4"
+            android:parentActivityName="com.example.user.myapplication.SevasaAlmacenamiento" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_disc5"
+            android:parentActivityName="com.example.user.myapplication.SevasaAlmacenamiento" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_disc6"
+            android:parentActivityName="com.example.user.myapplication.SevasaAlmacenamiento" />
+        //SEVASA IMPRESORAS//
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_imp1"
+            android:parentActivityName="com.example.user.myapplication.SevasaImpresoras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_imp2"
+            android:parentActivityName="com.example.user.myapplication.SevasaImpresoras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_imp3"
+            android:parentActivityName="com.example.user.myapplication.SevasaImpresoras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_imp4"
+            android:parentActivityName="com.example.user.myapplication.SevasaImpresoras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_imp5"
+            android:parentActivityName="com.example.user.myapplication.SevasaImpresoras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Sevasa_imp6"
+            android:parentActivityName="com.example.user.myapplication.SevasaImpresoras" />
+        //COMTECH COMPUTADORAS//
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Comt_compu1"
+            android:parentActivityName="com.example.user.myapplication.ComtechComputadoras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Comt_compu2"
+            android:parentActivityName="com.example.user.myapplication.ComtechComputadoras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Comt_compu3"
+            android:parentActivityName="com.example.user.myapplication.ComtechComputadoras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Comt_compu4"
+            android:parentActivityName="com.example.user.myapplication.ComtechComputadoras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Comt_compu5"
+            android:parentActivityName="com.example.user.myapplication.ComtechComputadoras" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Comt_compu6"
+            android:parentActivityName="com.example.user.myapplication.ComtechComputadoras" />
+        //COMTECH ZONA GAMER//
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Comt_gam1"
+            android:parentActivityName="com.example.user.myapplication.Comtech_ZonaGamer" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Comt_gam2"
+            android:parentActivityName="com.example.user.myapplication.Comtech_ZonaGamer" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Comt_gam3"
+            android:parentActivityName="com.example.user.myapplication.Comtech_ZonaGamer" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Comt_gam4"
+            android:parentActivityName="com.example.user.myapplication.Comtech_ZonaGamer" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Comt_gam5"
+            android:parentActivityName="com.example.user.myapplication.Comtech_ZonaGamer" />
+        <activity
+            android:name="com.example.user.myapplication.ItemsAdapters.Comt_gam6"
+            android:parentActivityName="com.example.user.myapplication.Comtech_ZonaGamer" />
+    </application>
+
+</manifest>

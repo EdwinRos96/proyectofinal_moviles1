@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="181dp"
+        android:id="@+id/imageView6"
+        android:background="@mipmap/impresora2"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:id="@+id/textView4"
+        android:text="Impresora HP DeskJet 3633"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="20sp"
+        android:layout_weight="0.32"
+        android:text="Hasta 1.000 páginas Impresión, copia, escaneo, inalámbricos Ampliación automática 1 Hi-Speed USB 2.0, Sistemas Operativos Compatibles: Windows 10, Windows 8.1, Windows 8, Windows 7 Mac OS X v10.8 Mountain Lion, OS X v10.9 Mavericks, OS X v10.10 Yosemite" />
+
+    <TextView
+        android:text=" Antes: $200"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Precio de Oferta: $180"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+</LinearLayout>

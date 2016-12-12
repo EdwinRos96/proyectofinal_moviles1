@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".AdapterSevasaAlmacenamiento">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvPrecio"
+        android:layout_below="@+id/tvResolucion"
+        android:layout_alignRight="@+id/tvResolucion"
+        android:layout_alignEnd="@+id/tvResolucion"
+        android:layout_alignLeft="@+id/tvResolucion"
+        android:layout_alignStart="@+id/tvResolucion"
+        android:textColor="@android:color/black" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imgAccesorioZG"
+        android:contentDescription="imagen1"
+        android:visibility="visible"
+        android:longClickable="true"
+        android:layout_alignTop="@+id/tvMarcaCam"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/tvTipo"
+        android:layout_toLeftOf="@+id/textView39"
+        android:layout_toStartOf="@+id/textView39" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Artículo"
+        android:id="@+id/textView39"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvResolucion"
+        android:layout_below="@+id/tvMarcaCam"
+        android:layout_alignLeft="@+id/tvMarcaCam"
+        android:layout_alignStart="@+id/tvMarcaCam"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvTipo"
+        android:layout_below="@+id/tvPrecio"
+        android:layout_alignLeft="@+id/tvPrecio"
+        android:layout_alignStart="@+id/tvPrecio"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/tvMarcaCam"
+        android:layout_marginTop="49dp"
+        android:layout_below="@+id/textView39"
+        android:layout_toRightOf="@+id/imgAccesorioZG"
+        android:layout_toEndOf="@+id/imgAccesorioZG"
+        android:textColor="@android:color/black" />
+
+</RelativeLayout>

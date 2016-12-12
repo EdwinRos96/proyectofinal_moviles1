@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="301dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:layout_gravity="center_horizontal"
+        android:background="@mipmap/compusevasa4"
+        android:layout_weight="0.29" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:id="@+id/textView14"
+        android:text="LAPTOP TOSHIBA M3-6Y30"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="normal|bold"
+        android:layout_weight="0.04" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView17"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="20sp"
+        android:layout_weight="0.21"
+        android:text="Procesador Intel Core I7-6700 3.4 GHz Frecuencia turbo máxima 4 GHz Memoria RAM 8GB, Disco Duro 1TB, Puertos USB 6: 2 USB 3.0, 4 USB 2.0, DisplayPort Puerto HDMI PS2 Puerto de Audio Ethernet LAN 10/100/1000 Unidad Óptica Dvd+/-Rw Teclado " />
+
+    <TextView
+        android:text="Antes: $1200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView19"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView20"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_weight="0.29"
+        android:text="Precio de Oferta: $1000" />
+
+</LinearLayout>

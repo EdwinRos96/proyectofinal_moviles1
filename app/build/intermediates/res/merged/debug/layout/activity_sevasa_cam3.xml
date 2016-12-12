@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="207dp"
+        android:id="@+id/imageView6"
+        android:background="@mipmap/camprofesional"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:id="@+id/textView4"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textSize="22sp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="normal|bold"
+        android:text="Cámara de Video Canon XF300" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="20sp"
+        android:layout_weight="0.32"
+        android:text="Grabación MPEG-2 MXF en tarjetas CF hasta a 50 Mbps (4:2:2) Asistencia NLE completa Objetivo gran angular 18x de la serie L de Canon 3 sensores CMOS Full HD tipo 1/3 de Canon LCD de 10,1 cm (1,23 millones de píxeles); EVF de 1,3 cm (1,55 millones de píxeles) Velocidades de imágenes variables" />
+
+    <TextView
+        android:text=" Antes: $3500"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="Precio de Oferta: $3000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+</LinearLayout>
